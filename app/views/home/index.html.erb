@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="col-md-12 col-sm-12">
+    <div class="container">
+      <h3>Lista de Cursos</h3>
+      <table id="courses" class='table table-striped'>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @courses.each do |course| %>
+          <tr>
+            <td class="text-left"><%= course.name %></td>
+            <td class="text-left"><%= course.description %></td>
+            <td class="text-left"><%= course.status%></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+      <h3>Lista de Estudantes</h3>
+      <table id="students" class='table table-striped'>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Número de registro</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @students.each do |student| %>
+          <tr>
+            <td class="text-left"><%= student.name %></td>
+            <td class="text-left"><%= student.id %></td>
+            <td class="text-left"><%= student.status%></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

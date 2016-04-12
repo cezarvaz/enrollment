@@ -1,0 +1,5 @@
+<%= simple_form_for @course do |f| %>
+  <%= f.input :name, label: 'Nome' %>
+  <%= f.input :description, label: 'Descrição' %>
+  <%= f.button :submit, submit_text, class:"btn btn-primary"  %>
+<% end  %>
