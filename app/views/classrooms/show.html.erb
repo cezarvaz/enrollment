@@ -1,0 +1,12 @@
+<div class="page-header">
+  <h1>Classe: <%= @classroom.id %></h1>
+</div>
+
+<dl id="classroom-details" class="dl-horizontal">
+  <dt>Curso</dt>
+  <dd><%= @classroom.course.name %></dd>
+  <dt>Estudante</dt>
+  <dd><%= @classroom.student.name %></dd>
+  <dt>Criado em</dt>
+  <dd><%= @classroom.created_at %></dd>
+</dl>

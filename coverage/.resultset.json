@@ -428,6 +428,14 @@
         null,
         null
       ],
+      "/home/cezarvaz/workspace/proficiency-test/enrollment/spec/factories/classrooms.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/home/cezarvaz/workspace/proficiency-test/enrollment/spec/factories/courses.rb": [
         1,
         1,
@@ -446,6 +454,7 @@
         null
       ],
       "/home/cezarvaz/workspace/proficiency-test/enrollment/config/routes.rb": [
+        1,
         1,
         1,
         1,
@@ -520,6 +529,38 @@
         null,
         null
       ],
+      "/home/cezarvaz/workspace/proficiency-test/enrollment/spec/features/user_enrolls_a_student_in_a_classroom_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/cezarvaz/workspace/proficiency-test/enrollment/spec/models/classroom_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/home/cezarvaz/workspace/proficiency-test/enrollment/app/models/classroom.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/home/cezarvaz/workspace/proficiency-test/enrollment/spec/models/course_spec.rb": [
         1,
         null,
@@ -527,6 +568,7 @@
         null
       ],
       "/home/cezarvaz/workspace/proficiency-test/enrollment/app/models/course.rb": [
+        1,
         1,
         1,
         null
@@ -538,6 +580,7 @@
         null
       ],
       "/home/cezarvaz/workspace/proficiency-test/enrollment/app/models/student.rb": [
+        1,
         1,
         1,
         null
@@ -640,8 +683,50 @@
         4,
         null,
         null
+      ],
+      "/home/cezarvaz/workspace/proficiency-test/enrollment/app/controllers/classrooms_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1460478405
+    "timestamp": 1460487536
   }
 }

@@ -39,6 +39,25 @@
           <% end %>
         </tbody>
       </table>
+      <h3>Lista de Classes</h3>
+      <table id="courses" class='table table-striped'>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Curso</th>
+            <th>Estudante</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @classrooms.each do |classroom| %>
+          <tr>
+            <td class="text-left"><%= classroom.id %></td>
+            <td class="text-left"><%= classroom.course.name %></td>
+            <td class="text-left"><%= classroom.student.name%></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>

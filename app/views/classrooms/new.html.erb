@@ -1,0 +1,6 @@
+<h3>Nova Classe</h3>
+<%= simple_form_for @classroom do |f| %>
+  <%= f.association :course, label: "Curso" %>
+  <%= f.association :student, label: "Estudante" %>
+  <%= f.button :submit, 'Criar classe', class:"btn btn-primary"  %>
+<% end  %>
