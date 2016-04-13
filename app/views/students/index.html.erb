@@ -15,7 +15,7 @@
           <% @students.each do |student| %>
           <tr>
             <td><%= link_to student.name, student %></td>
-            <td><%= student.register_number %></td>
+            <td><%= student.id %></td>
             <td><%= student.status %></td>
           </tr>
           <% end %>
